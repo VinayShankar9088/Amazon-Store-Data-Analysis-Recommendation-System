@@ -1,8 +1,8 @@
-# Amazon Store Data Analysis & Recommendation System
+# Amazon Store Data Analysis
 
 ## Overview
 
-This project analyzes customer review data from an Amazon-like store dataset. The system performs data cleaning, generates business insights, and provides basic product recommendations based on customer ratings.
+This practice focuses on analyzing customer review data from an Amazon-like store dataset using Python. It includes data cleaning, basic data analysis, and simple product suggestions based on customer ratings.
 
 ## Features
 
@@ -12,7 +12,7 @@ This project analyzes customer review data from an Amazon-like store dataset. Th
 * Handle missing values
 * Calculate average customer ratings
 * Identify poor rating percentage
-* Generate simple product recommendations
+* Generate simple product suggestions
 
 ## Technologies Used
 
@@ -20,27 +20,27 @@ This project analyzes customer review data from an Amazon-like store dataset. Th
 * JSON
 * Jupyter Notebook
 
-## Project Workflow
+## Practice Workflow
 
-1. Load raw customer data from JSON file
+1. Load raw customer data from a JSON file
 2. Clean and preprocess the dataset
 3. Analyze customer ratings
 4. Generate meaningful insights
-5. Recommend products based on customer ratings
+5. Suggest products based on customer ratings
 
 ## Sample Insights
 
-* Average Customer Rating: 3.9
-* Poor Ratings (< 3): 20%
+* Average Customer Rating: 3.6
+* Poor Ratings (< 3): 25%
 
-## Recommendation Logic
+## Product Suggestion Logic
 
 * Rating >= 4 → Apple
 * Rating < 4 → Samsung
 
 ## Project Structure
 
-```
+```text
 Amazon-Store-Data-Analysis/
 │
 ├── data/
@@ -54,9 +54,6 @@ Amazon-Store-Data-Analysis/
 └── requirements.txt
 ```
 
-## Future Improvements
+## Purpose
 
-* Sentiment Analysis on customer feedback
-* Machine Learning recommendation system
-* Interactive dashboard using Streamlit
-* Data visualization with Matplotlib and Seaborn
+This repository was created to practice data cleaning, exploratory data analysis (EDA), and basic decision-making using Python and JSON data.
